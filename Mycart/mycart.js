@@ -53,7 +53,7 @@ cartItems.map(product => {
         <img class="image-top" src=${product.img} alt="${product.title}">
         <div class="card-body">
             <h5 class="card-title">${product.title}</h5>
-            <p class="card-text">&#36;${product.price}</p>
+            <p class="card-text">&#x20B9;${product.price}</p>
         </div>
         <button class='addCart'>Remove From Cart</button>
     </div>
@@ -65,7 +65,7 @@ cartItems.map(product => {
             <div class="id">${count++}.</div>
             <div class="name">${product.title}</div>
         </div>
-        <div class="price">&#36;${product.price}</div>
+        <div class="price">&#x20B9;${product.price}</div>
     </div>
     ` : "";
 })
@@ -91,12 +91,12 @@ if (myCart.length == undefined) {
     localStorage.removeItem('myCart');
     warning.classList.remove('hide');
 }
-document.querySelector('.total-price').innerHTML = `&#36;${total}`;
+document.querySelector('.total-price').innerHTML = `&#x20B9;${total}`;
 
 var options = {
     key: "rzp_test_HndvDkSTHCu5Io",
     amount: total * 100,
-    currency: "USD",
+    currency: "INR",
     name: "Shoppex",
     description: "This is your order",
     theme: {
