@@ -96,7 +96,7 @@ document.querySelector('.total-price').innerHTML = `&#36;${total}`;
 var options = {
     key: "rzp_test_HndvDkSTHCu5Io",
     amount: total * 100,
-    currency: "INR",
+    currency: "USD",
     name: "Shoppex",
     description: "This is your order",
     theme: {
