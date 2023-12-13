@@ -55,7 +55,7 @@ fetch('https://fakestoreapi.com/products')
                     <img class="image-top" src=${product.image} alt="${product.title}">
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
-                        <p class="card-text">&#36;<span class="card-price">${product.price}</span></p>
+                        <p class="card-text">&#x20B9;<span class="card-price">${product.price}</span></p>
                         <p class="card-stock">Hurry up only ${product.rating.count} items left!!!</p>
                         <p class="card-rating">${product.rating.rate} &#9733;</p>   
                     </div>
@@ -68,7 +68,7 @@ fetch('https://fakestoreapi.com/products')
                     <img class="image-top" src=${product.image} alt="${product.title}">
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
-                        <p class="card-text">&#36;<span class="card-price">${product.price}</span></p>
+                        <p class="card-text">&#x20B9;<span class="card-price">${product.price}</span></p>
                         <p class="card-stock">Hurry up only ${product.rating.count} items left!!!</p>
                         <p class="card-rating">${product.rating.rate} &#9733;</p>   
                     </div>
@@ -81,7 +81,7 @@ fetch('https://fakestoreapi.com/products')
                     <img class="image-top" src=${product.image} alt="${product.title}">
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
-                        <p class="card-text">&#36;<span class="card-price">${product.price}</span></p>
+                        <p class="card-text">&#x20B9;<span class="card-price">${product.price}</span></p>
                         <p class="card-stock">Hurry up only ${product.rating.count} items left!!!</p>
                         <p class="card-rating">${product.rating.rate} &#9733;</p>   
                     </div>
@@ -94,7 +94,7 @@ fetch('https://fakestoreapi.com/products')
                     <img class="image-top" src=${product.image} alt="${product.title}">
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>
-                        <p class="card-text">&#36;<span class="card-price">${product.price}</span></p>
+                        <p class="card-text">&#x20B9;<span class="card-price">${product.price}</span></p>
                         <p class="card-stock">Hurry up only ${product.rating.count} items left!!!</p>
                         <p class="card-rating">${product.rating.rate} &#9733;</p>   
                     </div>
